@@ -1,0 +1,129 @@
+.container {
+    width: 45vh;
+    height: 530px;
+    padding: 60px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%,-35%);
+    text-align: center;
+    display: grid;
+}
+.text-relative {
+    color: white;
+    font-size: 33px;
+    display: flex;
+}
+.or {
+    color: darkgray;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.header {
+    position: absolute;
+    left: 150px;
+    top: 20px;
+    color: red;
+}
+body {
+    height: 90vh;
+    background: url("netflix.jpg") no-repeat center;
+    background-size: cover;
+    margin: 0;
+}
+.red-btn {
+    background-color: red;
+    border-color: red;
+    width: 308px;
+    height: 40px;
+    margin-top: 20px;
+}
+.black-btn {
+    background-color: rgba(128, 128, 128, 0.819);
+    border-color: rgba(128, 128, 128, 0.819);
+    width: 306px;
+    height: 40px;
+    margin-top: 15px;
+    opacity: 0.7;
+    
+}
+.secret {
+    margin-top: 10px;
+}
+.checkbox {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    z-index: 1;
+}
+.login-save {
+    color: white;
+    margin-top: -27px;
+    margin-left: -130px;
+}
+.guess-netflix {
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 10px;
+    margin-left: -143px;
+    font-size: 1rem;
+}
+.nowInjoy {
+    color: white;
+    margin-top: -22px ;
+    margin-left: 165px;
+    font-size: 1rem;
+}
+a.link-secret:link {
+    color : white;
+  }
+a.link-secret:visited {
+    color : white;
+}
+.nowInjoy a {
+    color:white
+}
+a {
+    text-decoration: none;
+}
+.first-explanation {
+    font-size: 13px;
+    color:  #8c8c8c;
+    margin-top: 25px;
+    margin-left: -50px;
+}
+.second-explanation {
+    color: #8c8c8c;
+    font-size: 13px;
+    margin-left: -115px;
+}
+a.third-explanation:link {
+    color: #0071eb; 
+}
+a.third-explanation:visited {
+    color: #0071eb;
+}
+a.third-explanation {
+    position: relative;
+    font-size: 13px;
+    top: -22px;
+    left: 101px;
+}
+#myInput {
+    height: 45px;
+    width: 300px;
+    background-color: black;
+    border-color: gray;
+    color: white;
+    margin-top: 5px;
+}
+#myInputs {
+    height: 45px;
+    width: 300px;
+    background-color: black;
+    border-color: gray;
+    color: white;
+    margin-top: 15px;
+}
+
