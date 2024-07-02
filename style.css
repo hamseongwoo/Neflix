@@ -10,11 +10,6 @@
     text-align: center;
     display: grid;
 }
-.text-relative {
-    color: white;
-    font-size: 33px;
-    display: flex;
-}
 .or {
     color: darkgray;
     margin-top: 15px;
