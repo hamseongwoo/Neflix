@@ -33,6 +33,10 @@ body {
     width: 308px;
     height: 40px;
     margin-top: 20px;
+    border-radius: 5px;
+}
+.red-btn:hover {
+    background-color: #EB0000;
 }
 .black-btn {
     background-color: rgba(128, 128, 128, 0.819);
@@ -41,7 +45,11 @@ body {
     height: 40px;
     margin-top: 15px;
     opacity: 0.7;
+    border-radius: 5px;
     
+}
+.black-btn:hover {
+    background-color: #6e6e6e;
 }
 .secret {
     margin-top: 10px;
@@ -76,6 +84,7 @@ a.link-secret:link {
 a.link-secret:visited {
     color : white;
 }
+
 .nowInjoy a {
     color:white
 }
@@ -105,20 +114,25 @@ a.third-explanation {
     top: -22px;
     left: 101px;
 }
-#myInput {
+.email-input {
     height: 45px;
-    width: 300px;
+    width: 285px;
     background-color: black;
     border-color: gray;
     color: white;
     margin-top: 5px;
+    border-radius: 5px;
+    background: transparent;
+    padding-left: 1.5em;
 }
-#myInputs {
+.secret-input {
     height: 45px;
-    width: 300px;
+    width: 285px;
     background-color: black;
     border-color: gray;
     color: white;
     margin-top: 15px;
+    border-radius: 5px;
+    background: transparent;
+    padding-left: 1.5em;
 }
-
